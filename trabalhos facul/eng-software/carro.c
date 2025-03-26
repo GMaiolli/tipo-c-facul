@@ -12,5 +12,5 @@ main() {
     vimp = (imp/100) * pfab;
     vlucro = (lucro/100) * pfab;
     pfinal = pfab + vlucro + vimp;
-    printf("\nValor de imposto sobre o veiculo foi de R$ %.2f, valor de lucro eh de R$ %.2f e o preco final eh de R$ %.2f",vimp,vlucro,pfinal);
+    printf("\nValor de imposto sobre o veiculo: R$ %.2f\nValor de lucro: R$ %.2f\nPreco final do veiculo: R$ %.2f",vimp,vlucro,pfinal);
 }
